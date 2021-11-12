@@ -1,0 +1,34 @@
+/* #root{
+
+} */
+
+#app{
+  /* border: 1px solid black;
+  border-radius: 5px; */
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+
+}
+
+#user-input{
+  border: 1px solid black;
+  height: 100px;
+}
+
+#user-input p{
+  display: block;
+  text-align: right;
+  font-size: xxx-large;
+  margin: 0
+}
+
+#buttons-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button{
+  border: 1px solid black;
+  height: 80px;
+}
